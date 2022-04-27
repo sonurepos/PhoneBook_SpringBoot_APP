@@ -1,0 +1,17 @@
+server:
+  port: 4334
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: sa
+    url: jdbc:h2:mem:testdb
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+app:
+ messages:
+  contactSaveSuccess: Contact Details Saved Successfully!
+  contactSaveFail: Failed to Save Contact Details
+  contactDeleteSuccess: Contact Details Deleted Successfully!
+  contactDeleteFail: Failed to Delete Contact Details
+  
